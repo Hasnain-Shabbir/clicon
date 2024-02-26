@@ -19,28 +19,28 @@ const DuCreditCard = ({ size = '24', color = '#191C1F' }) => {
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.75 15.75H18.75"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.25 15.75H12.75"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M2.25 9.08447H21.75"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

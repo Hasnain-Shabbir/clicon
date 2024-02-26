@@ -1,23 +1,24 @@
+'use client';
 import React from 'react';
 
-const CaretDown = ({ size = '24', color = '#191C1F' }) => {
+const Circle = ({ size = '24', color = '#191C1F' }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 24 24"
       fill="none"
+      viewBox="0 0 24 24"
     >
       <path
-        d="M19.5 9L12 16.5L4.5 9"
         stroke={color}
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeLinecap="round"
         strokeLinejoin="round"
-      />
+        strokeWidth="1.5"
+        d="M12 21a9 9 0 100-18 9 9 0 000 18z"
+      ></path>
     </svg>
   );
 };
 
-export default CaretDown;
+export default Circle;

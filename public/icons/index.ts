@@ -6,6 +6,7 @@ export { default as ArrowRight } from './regular/arrows/ArrowRight.tsx';
 export { default as ArrowsCounterClockwise } from './regular/arrows/ArrowsCounterClockwise.tsx';
 export { default as CaretDown } from './regular/arrows/CaretDown.tsx';
 export { default as CaretUp } from './regular/arrows/CaretUp.tsx';
+export { default as Circle } from './regular/circles/Circle.tsx';
 export { default as PhoneCall } from './regular/communication/PhoneCall.tsx';
 export { default as MagnifyingGlass } from './regular/devices/MagnifyingGlass.tsx';
 export { default as Heart } from './regular/games/Heart.tsx';

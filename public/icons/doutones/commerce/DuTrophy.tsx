@@ -19,35 +19,35 @@ const DuTrophy = ({ size = '24', color = '#191C1F' }) => {
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9 21H15"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 17.25V21"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.5811 12H19.4998C20.2955 12 21.0585 11.6839 21.6211 11.1213C22.1837 10.5587 22.4998 9.79565 22.4998 9V7.5C22.4998 7.30109 22.4208 7.11032 22.2801 6.96967C22.1395 6.82902 21.9487 6.75 21.7498 6.75H18.7498"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.4376 12H4.49072C3.69507 12 2.93201 11.6839 2.3694 11.1213C1.80679 10.5587 1.49072 9.79565 1.49072 9V7.5C1.49072 7.30109 1.56974 7.11032 1.71039 6.96967C1.85104 6.82902 2.04181 6.75 2.24072 6.75H5.24072"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

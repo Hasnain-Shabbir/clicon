@@ -20,7 +20,7 @@ const User = ({ size = '24', color = '#191C1F' }) => {
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

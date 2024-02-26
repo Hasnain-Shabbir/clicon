@@ -19,28 +19,28 @@ const DuPackage = ({ size = '24', color = '#191C1F' }) => {
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.5938 14.2969V9.42188L7.5 4.40625"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.8968 6.99365L12.0843 11.9999L3.10303 6.99365"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.0844 12L12 22.0125"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

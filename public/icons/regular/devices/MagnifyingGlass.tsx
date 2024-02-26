@@ -14,14 +14,14 @@ const MagnifyingGlass = ({ size = '24', color = '#191C1F' }) => {
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.4438 16.4437L21.0001 21"
         stroke={color}
         stroke-width="1.5"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
