@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -85,8 +85,11 @@ const config: Config = {
       maxWidth: {
         container: '1320px',
       },
+      borderRadius: {
+        base: '3px',
+      },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

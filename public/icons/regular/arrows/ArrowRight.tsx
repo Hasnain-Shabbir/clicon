@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 
 const ArrowRight = ({ size = '24', color = '#191C1F' }) => {
