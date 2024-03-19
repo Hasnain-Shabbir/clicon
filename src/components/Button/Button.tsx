@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 import React, { ReactNode, useState } from 'react';
 import Link from 'next/link';
 import { tw } from '@/utils/utils';
@@ -41,13 +41,32 @@ const Button = (props: ButtonProps) => {
       ? `text-gray-900 hover:bg-warning-400 hover:border-warning-400`
       : ``;
 
-  const btnOutlined = btnDisabled
-    ? tw`cursor-not-allowed border-${color}-200 bg-transparent text-${color}-200 focus:ring-0`
-    : tw`border-${color}-500 bg-transparent text-${color}-500 hover:border-${color}-600 hover:bg-${color}-50 hover:text-${color}-600 focus:ring focus:ring-${color}-100`;
+  // const btnOutlined = btnDisabled
+  //   ? tw`cursor-not-allowed border-primary-200 bg-transparent text-primary-200 focus:ring-0`
+  //   : tw`border-primary-500 bg-transparent text-primary-500 hover:border-primary-600 hover:bg-primary-50 hover:text-primary-600 focus:ring focus:ring-primary-100`;
 
-  const btnContained = btnDisabled
-    ? tw`cursor-not-allowed border-${color}-200 bg-${color}-200 text-white hover:border-${color}-200 focus:ring-0`
-    : tw`border-${color}-500 bg-${color}-500 text-white hover:border-${color}-600 hover:bg-${color}-600 focus:ring focus:ring-${color}-200 ${btnWarning}`;
+  // const btnContained = btnDisabled
+  //   ? tw`cursor-not-allowed border-primary-200 bg-primary-200 text-white hover:border-primary-200 focus:ring-0`
+  //   : tw`border-primary-500 bg-primary-500 text-white hover:border-primary-600 hover:bg-primary-600 focus:ring focus:ring-primary-200 ${btnWarning}`;
+
+  const baseStylesOutlined = btnDisabled
+    ? tw`cursor-not-allowed border-primary-200 bg-transparent text-primary-200 focus:ring-0`
+    : tw`border-primary-500 bg-transparent text-primary-500 hover:border-primary-600 hover:bg-primary-50 hover:text-primary-600 focus:ring focus:ring-primary-100`;
+
+  const baseStylesContained = btnDisabled
+    ? tw`cursor-not-allowed border-primary-200 bg-primary-200 text-white hover:border-primary-200 focus:ring-0`
+    : tw`border-primary-500 bg-primary-500 text-white hover:border-primary-600 hover:bg-primary-600 focus:ring focus:ring-primary-200`;
+
+  const getBtnColorStyles = (color: string, baseStyles: string) => {
+    console.log('🚀 ~ getBtnColorStyles ~ color:', color);
+    return baseStyles.replaceAll('primary', color);
+  };
+
+  const btnOutlined = getBtnColorStyles(color, baseStylesOutlined);
+  const btnContained = getBtnColorStyles(color, baseStylesContained);
+  // console.log('🚀 ~ Button ~ btnOutlined:', btnOutlined);
+
+  // const btnStyles = baseStyles.replaceAll('primary', 'secondary');
 
   const btnSize = largeSize ? 'px-8' : 'px-6';
   const btnVariant = variant === 'contained' ? btnContained : btnOutlined;
