@@ -5,7 +5,12 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --text-color: #191c1f;
+  }
+
   html {
     font-family: 'Public Sans', sans-serif;
+    color: var(--text-color);
   }
 }
