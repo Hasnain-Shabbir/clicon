@@ -88,6 +88,9 @@ const config: Config = {
       borderRadius: {
         base: '3px',
       },
+      fontSize: {
+        '3xl': '32px',
+      },
     },
   },
   plugins: [],
