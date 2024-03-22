@@ -20,4 +20,5 @@ export { default as Reddit } from './regular/social/Reddit.tsx';
 export { default as Twitter } from './regular/social/Twitter.tsx';
 export { default as Youtube } from './regular/social/Youtube.tsx';
 export { default as MapPinLine } from './regular/travel/MapPinLine.tsx';
+export { default as Apple } from './regular/social/Apple.tsx';
 export { default as LogoIcon } from './LogoIcon.tsx';
