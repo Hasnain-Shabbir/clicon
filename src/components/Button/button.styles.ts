@@ -1,4 +1,19 @@
-export const colors = {
+export interface ColorShades {
+  200?: string;
+  400?: string;
+  500?: string;
+  600?: string;
+}
+
+export interface Colors {
+  primary: ColorShades;
+  secondary: ColorShades;
+  success: ColorShades;
+  warning: ColorShades;
+  danger: ColorShades;
+}
+
+export const colors: Colors = {
   primary: {
     200: '#FFCEAD',
     500: '#FA8232',
