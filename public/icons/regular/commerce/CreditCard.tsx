@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Headphones = ({ size = '24', color = '#191C1F' }) => {
+const CreditCard = ({ size = '24', color = '#191C1F' }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -14,10 +14,10 @@ const Headphones = ({ size = '24', color = '#191C1F' }) => {
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1.5"
-        d="M35.234 21.25h-5a2.5 2.5 0 00-2.5 2.5V30a2.5 2.5 0 002.5 2.5h2.5a2.5 2.5 0 002.5-2.5v-8.75zm0 0a15 15 0 00-15.125-15A15 15 0 005 21.25V30a2.5 2.5 0 002.5 2.5H10a2.5 2.5 0 002.5-2.5v-6.25a2.5 2.5 0 00-2.5-2.5H5"
+        d="M35 8.75H5c-.69 0-1.25.56-1.25 1.25v20c0 .69.56 1.25 1.25 1.25h30c.69 0 1.25-.56 1.25-1.25V10c0-.69-.56-1.25-1.25-1.25zM26.25 26.25h5M18.75 26.25h2.5M3.75 15.14h32.5"
       ></path>
     </svg>
   );
 };
 
-export default Headphones;
+export default CreditCard;

@@ -83,7 +83,7 @@ const config: Config = {
         },
       },
       maxWidth: {
-        container: '1320px',
+        container: '1360px',
       },
       borderRadius: {
         base: '3px',
